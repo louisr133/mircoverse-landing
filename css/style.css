@@ -1,5 +1,6 @@
-header{
+#header{
     display: flex;
+    justify-content: space-between;
     /* position: fixed; */
     width: 100%;
 }
@@ -12,4 +13,10 @@ header{
 #header-img{
     height: 50px;
     width: 100px;
+}
+
+#nav-bar{
+    align-self: end;
+    margin-right: 10px;
+
 }
